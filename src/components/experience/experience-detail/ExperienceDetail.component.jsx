@@ -4,7 +4,6 @@ import "./ExperienceDetail.style.scss"
 const ExperienceDetail = ({ selectedJob }) => {
   let i = 0;
   const { position, company, date, descriptions} = selectedJob;
-  console.log(selectedJob);
   return (
     <div className="experience-detail-container">
       {selectedJob && (
